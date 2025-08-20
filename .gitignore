@@ -1,0 +1,39 @@
+# ROS/catkin
+catkin_ws/build/
+catkin_ws/devel/
+catkin_ws/install/
+catkin_ws/logs/
+**/CMakeFiles/
+**/CMakeCache.txt
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# 大文件/数据/模型（如需请用 Git LFS 或外链）
+datasets/
+data/
+outputs/
+results/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.bag
+*.mp4
+*.mov
+*.avi
+*.zip
+*.tar*
+*.7z
+*.npy
+*.npz
