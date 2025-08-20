@@ -18,9 +18,8 @@ Unitree Legg#ed SDK installed on the machine that runs dog_control.py
    python server.py
 
 2. Run the clients(hand/face)
-   # Terminal 2: hand gestures
+   #terminal 2: hand gestures 
    python hand_client.py
-
-   # Terminal 3: head nod/shake
+   #terminal 3: head gestures 
    python face_client.py
 
