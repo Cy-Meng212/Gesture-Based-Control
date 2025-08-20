@@ -1,10 +1,11 @@
 # Gesture-Based-Control
 #Files
 catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_sdk/example_py/
-├── server.py        # TCP server: receives gesture tokens, debounces, forwards to control
-├── hand_client.py   # Client: camera + MediaPipe Hands → sends tokens over TCP
-├── face_client.py   # Client: camera + head nod/shake detection → sends tokens
-└── dog_control.py   # Maps tokens to Unitree SDK commands (sends UDP to the robot)
+
+server.py        # TCP server: receives gesture tokens, debounces, forwards to control
+hand_client.py   # Client: camera + MediaPipe Hands → sends tokens over TCP
+face_client.py   # Client: camera + head nod/shake detection → sends tokens
+dog_control.py   # Maps tokens to Unitree SDK commands (sends UDP to the robot)
 
 #Requirements
 Python 3.8+
