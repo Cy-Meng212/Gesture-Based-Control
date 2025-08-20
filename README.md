@@ -1,6 +1,6 @@
 # Gesture-Based-Control
 
-#  Files
+###  Files
 
 catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_sdk/example_py/
 
@@ -13,7 +13,7 @@ face_client.py   # Client: camera + head nod/shake detection → sends tokens
 dog_control.py   # Maps tokens to Unitree SDK commands (sends UDP to the robot)
 
 
-#Requirements
+###  Requirements
 
 Python 3.8+
 
@@ -28,7 +28,7 @@ SSID: Unitree_Go498507A
 Password: 00000000
 
 
-##Quick Start
+###  Quick Start
 
 1. Start the server
    
